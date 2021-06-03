@@ -28,6 +28,13 @@ const noteAboutToday = {
 
 notes.push(noteAboutToday);
 
+const searchTerm = '';
+for (const note of notes) {
+    if (note.subject === searchTerm) {
+        console.log(`${note.subject}: ${note.feeling}.`);
+    }
+}
+
 for (const note of notes) {
     console.log(`Note: ${note.id}
   Date: ${note.date}

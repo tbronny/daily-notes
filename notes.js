@@ -33,6 +33,6 @@ for (const note of notes) {
   Date: ${note.date}
   Today we learned ${note.subject}.
   Thoughts: ${note.feeling}.
-  -------------
+  ---------------
   `);
 }
